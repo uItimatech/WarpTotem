@@ -19,5 +19,16 @@
   ],
   "result": {
     "item": "warptotem:warp_totem"
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "echoingwilds"
+        ]
+      }
+    }
+  ]
 }
