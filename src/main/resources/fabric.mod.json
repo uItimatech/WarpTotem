@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "warptotem",
+	"version": "${version}",
+	"name": "Warp Totem",
+	"description": "Adds a warp totem, allowing you to teleport to a lodestone linked to the totem using a compass.",
+	"authors": [
+		"ultimatech"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/JKjdKKP",
+		"sources": "https://github.com/uItimatech/WarpTotem",
+		"issues": "https://github.com/uItimatech/WarpTotem/issues"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/warptotem/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ultimatech.warptotem.WarpTotem"
+		]
+	},
+	"mixins": [
+		"warptotem.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"echoingwilds": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/jEGF5fb"
+			}
+		}
+	}
+}

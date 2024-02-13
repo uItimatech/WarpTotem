@@ -1,0 +1,136 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "facing": "east",
+                "lodestone_available": "false",
+                "lodestone_tracked": "false"
+            },
+            "apply": {
+                "model": "warptotem:block/warp_totem_disabled",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "east",
+                "lodestone_available": "false",
+                "lodestone_tracked": "true"
+            },
+            "apply": {
+                "model": "warptotem:block/warp_totem_available",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "east",
+                "lodestone_available": "true",
+                "lodestone_tracked": "true"
+            },
+            "apply": {
+                "model": "warptotem:block/warp_totem_enabled",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "lodestone_available": "false",
+                "lodestone_tracked": "false"
+            },
+            "apply": {
+                "model": "warptotem:block/warp_totem_disabled",
+                "y": 0
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "lodestone_available": "false",
+                "lodestone_tracked": "true"
+            },
+            "apply": {
+                "model": "warptotem:block/warp_totem_available",
+                "y": 0
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "lodestone_available": "true",
+                "lodestone_tracked": "true"
+            },
+            "apply": {
+                "model": "warptotem:block/warp_totem_enabled",
+                "y": 0
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "lodestone_available": "false",
+                "lodestone_tracked": "false"
+            },
+            "apply": {
+                "model": "warptotem:block/warp_totem_disabled",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "lodestone_available": "false",
+                "lodestone_tracked": "true"
+            },
+            "apply": {
+                "model": "warptotem:block/warp_totem_available",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "lodestone_available": "true",
+                "lodestone_tracked": "true"
+            },
+            "apply": {
+                "model": "warptotem:block/warp_totem_enabled",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "lodestone_available": "false",
+                "lodestone_tracked": "false"
+            },
+            "apply": {
+                "model": "warptotem:block/warp_totem_disabled",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "lodestone_available": "false",
+                "lodestone_tracked": "true"
+            },
+            "apply": {
+                "model": "warptotem:block/warp_totem_available",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "lodestone_available": "true",
+                "lodestone_tracked": "true"
+            },
+            "apply": {
+                "model": "warptotem:block/warp_totem_enabled",
+                "y": 270
+            }
+        }
+    ]
+}

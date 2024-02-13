@@ -1,0 +1,8 @@
+{
+  "warp_totem_enable": {
+    "subtitle": "sounds.warptotem.warp_totem_enable",
+    "sounds": [
+      "warptotem:warp_totem_enable"
+    ]
+  }
+}

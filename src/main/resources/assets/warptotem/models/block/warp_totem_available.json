@@ -1,0 +1,12 @@
+{
+    "credit": "Made using Blockbench by ultimatech",
+    "parent": "warptotem:block/warp_totem_disabled",
+    "texture_size": [
+        64,
+        64
+    ],
+    "textures": {
+        "0": "warptotem:block/warp_totem_available",
+        "particle": "warptotem:block/warp_totem_available"
+    }
+}
